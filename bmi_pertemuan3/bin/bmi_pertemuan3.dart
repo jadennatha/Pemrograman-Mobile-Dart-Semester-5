@@ -1,5 +1,11 @@
-import 'package:bmi_pertemuan3/bmi_pertemuan3.dart' as bmi_pertemuan3;
+// main.dart
+void main() {
+  List<Map<String, dynamic>> riwayat = [];
 
-void main(List<String> arguments) {
-  print('Hello world: ${bmi_pertemuan3.calculate()}!');
+  // Simulasi beberapa input data untuk perhitungan BMI.
+  hitungBMI(170, 65, riwayat);
+  hitungBMI(165, 75, riwayat);
+  hitungBMI(180, 85, riwayat);
+
+  tampilkanRiwayat(riwayat);
 }
