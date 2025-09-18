@@ -36,8 +36,9 @@ void hitungBMI(double tinggiCm, double beratKg, List<Map<String, dynamic>> riway
     'bmi': bmi,
     'kategori': kategori,
   });
+}
 
-  void tampilkanRiwayat(List<Map<String, dynamic>> riwayat) {
+void tampilkanRiwayat(List<Map<String, dynamic>> riwayat) {
   print("--- Riwayat Perhitungan BMI ---");
 
   // Lakukan perulangan untuk setiap item dalam list riwayat.
